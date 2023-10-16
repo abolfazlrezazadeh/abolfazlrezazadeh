@@ -1,7 +1,7 @@
 # 🖐 Hi there,
 
-My name is Abolfazl Rezazadeh
-I'm programming
+My name is Abolfazl Rezazadeh<br>
+I'm backend developper focused on Node.js<br>
 🐱‍👤 little about me ⬇
 
 ``` Js
