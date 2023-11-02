@@ -17,7 +17,7 @@ function BackEnd(languages , runTimes, frameworks, dataBases, messaging, ETC){
   console.log(messaging.map(item => item.name));
   //["RabitMQ"]
   console.log(ETC.map(item => item.name);
-  //["GraphQL", "swagger", "Git", "TDD", "BDD" ]
+  //["GraphQL", "swagger", "Git", "Restful API" ]
 }
 function FrontEnd(){
   console.log("NASA hack history with Html");
