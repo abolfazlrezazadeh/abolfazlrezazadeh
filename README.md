@@ -5,7 +5,7 @@ I'm backend developper focused on Node.js<br>
 🐱‍👤 little about me ⬇
 
 ``` Js
-function BackEnd(languages , runTimes, frameworks, dataBases, messaging, ETC){
+function BackEnd(languages , runTimes, frameworks, dataBases, messaging, realTimeTools, otherTools){
   console.log(languages.map(item => item.name));
   //["JavaScript"]
   console.log(runTimes.map(item => item.name))
@@ -13,11 +13,17 @@ function BackEnd(languages , runTimes, frameworks, dataBases, messaging, ETC){
   console.log(frameworks.map(item => item.name));
   //["Express.js", "Fastify"]
   console.log(dataBases.map(item => item.name));
-  //["MongoDb", "Redis"]
-  console.log(messaging.map(item => item.name));
-  //["RabitMQ"]
-  console.log(ETC.map(item => item.name);
-  //["GraphQL", "swagger", "Git", "Restful API" ]
+  //["MongoDb", "Redis", "ElasticSearch"]
+  console.log(realTimeTools.map(item => item.name));
+  //["socket.io"]
+  console.log(microServiceTools.map(item => item.name));
+  //["gRPC", "RabitMQ"]
+  console.log(architectures.map(item => item.name));
+  //["MVC"]
+  console.log(API.map(item => item.name));
+  //["swagger", "postman"]
+  console.log(otherTools.map(item => item.name);
+  //["GraphQL", "Restful API" ]
 }
 function FrontEnd(){
   console.log("NASA hack history with Html");
