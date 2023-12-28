@@ -17,7 +17,7 @@ function BackEnd(languages , runTimes, frameworks, dataBases, messaging, realTim
   console.log(realTimeTools.map(item => item.name));
   //["socket.io"]
   console.log(microServiceTools.map(item => item.name));
-  //["gRPC", "RabitMQ"]
+  //["gRPC", "RabbitMQ"]
   console.log(architectures.map(item => item.name));
   //["MVC"]
   console.log(API.map(item => item.name));
