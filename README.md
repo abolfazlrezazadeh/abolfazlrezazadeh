@@ -7,23 +7,23 @@ I'm backend developper focused on Node.js<br>
 ``` Js
 function BackEnd(languages , runTimes, frameworks, dataBases, messaging, realTimeTools, otherTools){
   console.log(languages.map(item => item.name));
-  //["JavaScript"]
+  ["JavaScript"]
   console.log(runTimes.map(item => item.name))
-  //["node.js"]
+  ["node.js"]
   console.log(frameworks.map(item => item.name));
-  //["Express.js", "Fastify"]
+  ["Express.js", "Fastify"]
   console.log(dataBases.map(item => item.name));
-  //["MongoDb", "Redis", "ElasticSearch"]
+  ["MongoDb", "Redis", "ElasticSearch"]
   console.log(realTimeTools.map(item => item.name));
-  //["socket.io"]
+  ["socket.io"]
   console.log(microServiceTools.map(item => item.name));
-  //["gRPC", "RabbitMQ"]
+  ["gRPC", "RabbitMQ"]
   console.log(architectures.map(item => item.name));
-  //["MVC"]
+  ["MVC"]
   console.log(API.map(item => item.name));
-  //["swagger", "postman"]
+  ["swagger", "postman"]
   console.log(otherTools.map(item => item.name);
-  //["GraphQL", "Restful API" ]
+  ["GraphQL", "Restful API" ]
 }
 function FrontEnd(){
   console.log("NASA hack history with Html");
