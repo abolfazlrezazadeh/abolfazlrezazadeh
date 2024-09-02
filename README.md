@@ -7,13 +7,13 @@ I'm backend developper focused on Node.js<br>
 ``` Js
 function BackEnd(languages , runTimes, frameworks, dataBases, messaging, realTimeTools, otherTools){
   console.log(languages.map(item => item.name));
-  ["JavaScript"]
+  ["Javascript", "Typescript"]
   console.log(runTimes.map(item => item.name))
   ["node.js"]
   console.log(frameworks.map(item => item.name));
-  ["Express.js", "Fastify"]
+  ["Express.js", "Fastify", "Nest.js"]
   console.log(dataBases.map(item => item.name));
-  ["MongoDb", "Redis", "ElasticSearch"]
+  ["MongoDb", "Redis", "PostgreSQL"]
   console.log(realTimeTools.map(item => item.name));
   ["socket.io"]
   console.log(microServiceTools.map(item => item.name));
