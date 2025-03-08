@@ -1,7 +1,7 @@
 # 🖐 Hi there,
 
 My name is Abolfazl Rezazadeh<br>
-I'm backend developper focused on Node.js<br>
+I'm backend developper focused on Node.js and little on Front<br>
 🐱‍👤 little about me ⬇
 
 ``` Js
@@ -25,8 +25,9 @@ function BackEnd(languages , runTimes, frameworks, dataBases, messaging, realTim
   console.log(otherTools.map(item => item.name);
   ["GraphQL", "Restful API" ]
 }
-function FrontEnd(){
-  console.log("NASA hack history with Html");
+function FrontEnd(frameworks){
+console.log(frameworks.map(item => item.name));
+  ["next.js", "react", "vite"]
 }
 ```
 # 💻 Tech Stack:
